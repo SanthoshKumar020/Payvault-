@@ -1,8 +1,41 @@
-node_modules/
-build/
-dist/
-coverage/
-.DS_Store
+# Java / Maven
+target/
+*.class
+*.jar
+*.war
+*.ear
 *.log
-.env*
+.mtj.tmp/
+
+# IDE
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+.env.*
 !.env.example
+
+# Logs & temporary
+logs/
+tmp/
+temp/
+
+# Node / frontend leftovers (should not exist in this repo)
+node_modules/
+dist/
+build/
+coverage/
+bun.lock
+package-lock.json
+yarn.lock

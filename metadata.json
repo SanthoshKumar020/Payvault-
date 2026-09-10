@@ -1,6 +1,0 @@
-{
-  "name": "PayVault - Digital Wallet Payment System",
-  "description": "Production-ready Spring Boot 3.3 multi-module microservices project for digital wallet payments with Saga Orchestration, Outbox Pattern, Redis Idempotency, and Kafka.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
